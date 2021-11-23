@@ -20,6 +20,7 @@
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/selector_list_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -60,5 +61,11 @@
         android:ellipsize="end"
         android:maxLines="1"
         android:text="Size: 48mb" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/checkbox_off_background" />
 
 </RelativeLayout>

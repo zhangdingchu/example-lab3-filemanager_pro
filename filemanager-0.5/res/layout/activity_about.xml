@@ -19,6 +19,7 @@
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -32,15 +33,15 @@
     tools:context=".AboutActivity" >
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="62dp"
+        android:layout_height="33dp"
         android:contentDescription="@string/app_icon"
         android:src="@drawable/ic_launcher" />
 
     <TextView
         android:id="@+id/tvAppName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="41dp"
         android:gravity="center"
         android:text="@string/app_name"
         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -48,14 +49,14 @@
     <TextView
         android:id="@+id/tvAppVersion"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:gravity="center"
         android:text="v1.0" />
 
     <TextView
         android:id="@+id/tvCredits"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="95dp"
         android:layout_marginTop="20dp"
         android:autoLink="web"
         android:gravity="center"
@@ -64,7 +65,7 @@
     <Button
         android:id="@+id/btnFeedback"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:drawableLeft="@drawable/ic_feedback"
         android:text="@string/feedback" />
@@ -72,8 +73,20 @@
     <Button
         android:id="@+id/btnPlaystore"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"      
+        android:layout_height="77dp"
         android:drawableLeft="@drawable/ic_other_apps"
-        android:text="@string/other_apps" />
+        android:text="Google play app" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Back" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:src="@android:drawable/btn_star_big_on" />
 
 </LinearLayout>
