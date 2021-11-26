@@ -27,6 +27,18 @@ public class SearchActivity extends Activity implements OnClickListener {
 
     @Override
     public void onClick(View v) {
-
+        switch (v.getId())
+        {
+            case R.id.button3:
+                try
+                {
+                    Intent intent=new Intent(this,com.michaldabski.filemanager.about.AboutActivity.class);
+                    startActivity(intent);
+                }
+                catch (Exception e) {
+                    e.printStackTrace();
+                }
+                break;
+        }
     }
 }
