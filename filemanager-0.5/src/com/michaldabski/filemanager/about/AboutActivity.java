@@ -134,6 +134,7 @@ public class AboutActivity extends Activity implements OnClickListener
 			case R.id.button:
 				try
 				{
+					//Intent intent=new Intent(this,com.michaldabski.filemanager.folders.FolderActivity.class);
 					Intent intent=new Intent(this,com.michaldabski.filemanager.folders.FolderActivity.class);
 					startActivity(intent);
 				}

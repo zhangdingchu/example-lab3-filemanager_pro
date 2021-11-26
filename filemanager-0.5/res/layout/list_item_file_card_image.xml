@@ -53,6 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/list_item_padding"
+                android:shadowColor="#00BCD4"
                 android:text="File name.mp4"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 

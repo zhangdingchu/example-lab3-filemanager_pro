@@ -26,6 +26,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
@@ -389,4 +390,20 @@ public class FolderActivity extends Activity implements OnItemClickListener, Cli
         else return super.onKeyLongPress(keyCode, event);
     }
 
+	public void onClick(View v)
+	{
+		switch (v.getId())
+		{
+			case R.id.app_bar_search:
+				try
+				{
+					;
+				}
+				catch (Exception e)
+				{
+					;
+				}
+				break;
+		}
+	}
 }
